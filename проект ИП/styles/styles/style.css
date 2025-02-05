@@ -1,0 +1,180 @@
+  /* Общие настройки */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Стили для Header */
+.site-header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-title {
+    font-size: 24px;
+    margin: 0;
+}
+
+.site-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    margin-left: 20px;
+    position: relative;
+}
+
+/* Стили для кнопки "Главная" */
+.home-btn {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.home-btn i {
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.home-btn:hover {
+    background-color: #0056b3;
+    border-radius: 4px;
+}
+
+/* Общий контейнер для всего содержимого */
+.main-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.content {
+    padding: 20px;
+}
+/* Контейнер для двух колонок */
+.container {
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+/* Стили для колонок */
+.column {
+    padding: 0; /* Убраны отступы */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-column {
+    flex: 1; /* Занимает одну часть пространства */
+    background-color: transparent; /* Убран серый фон */
+}
+
+.image-column img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0; /* Убраны закругления */
+}
+
+.text-column {
+    flex: 2; /* Занимает две части пространства */
+    padding: 20px 30px;
+}
+
+.text-column h1 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.text-column p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Контейнер для списка страниц */
+.page-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.page-item {
+    display: block;
+    padding: 15px 20px;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    border-bottom: 1px solid #eaeaea;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.page-item:last-child {
+    border-bottom: none; /* Убираем нижнюю границу у последнего элемента */
+}
+
+.page-item:hover {
+    background-color: #f9f9f9;
+    color: #007bff;
+}
+
+/* Блок с вопросами-ответами */
+.qa-container {
+    padding: 20px;
+}
+
+.qa-block {
+    /* Убран заголовок "Часто задаваемые вопросы" */
+}
+
+.question-answer {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #007bff;
+    border-radius: 4px;
+}
+
+.question-answer h2 {
+    font-size: 20px; /* Увеличен размер шрифта для h2 */
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.question-answer p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
